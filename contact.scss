@@ -1,0 +1,32 @@
+@import "./main.scss";
+@import "./color.scss";
+@import "./blog.scss";
+
+.info{
+    border: 1px none;
+    width: 100%;
+    // height: 300px;
+    background-color: $main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    div{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 70px;
+        }
+            h2{
+                color: $text_color;
+            }
+            p{
+                color: $text_dark;
+            }
+    }
+}

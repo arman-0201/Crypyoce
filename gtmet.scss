@@ -1,0 +1,567 @@
+@import "./main.scss";
+@import "./color.scss";
+@import "./blog.scss";
+
+@media only screen and (min-width:1201px){
+.place{
+    flex-direction: column;
+    gap: 20px;
+}
+.about{
+    border: 1px none;
+    width: 100%;
+    height: 500px;
+    background-color: $main;
+    display: flex;
+    .forPhoto{
+        border: 1px none;
+        width: 50%;
+        height: 100%;
+        background-image: url(Photos/GTmetrik.png);
+        background-repeat: no-repeat;
+    }
+    .categories{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+
+        ul{
+            &:nth-child(1){
+                width: 400px;
+                height: 300px;
+                background-color: white;
+                list-style-type: none;
+                border-radius: 10px;
+                li{
+                    width: 100%;
+                    height: 14%;
+                    font-weight: bolder;
+                    font-size: 18px;
+                    border-bottom: 1px none gray;
+                    padding-left: 10px;
+                    box-sizing: border-box;
+                    color: gray;
+                    
+                    &:nth-child(1){
+                        font-size: 20px;
+                        color: blue;
+                        font-weight: bolder;
+                    }
+                }
+            }
+            &:nth-child(2){
+                border-radius: 10px;
+                width: 500px;
+                height: 150px;
+                background-color: white;
+                list-style-type: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                li{
+                    border-radius: 30px;
+                    text-align: center;
+                    border: 1px none gray;
+                    width: 150px;
+                    height: 14%;
+                    font-weight: bolder;
+                    font-size: 18px;
+                    color: $text_dark;
+                }
+            }
+        }
+    }
+}
+.what{
+    border: 1px none;
+    width: 100%;
+    height: 200px;
+    background-color: $main;
+    padding-right: 800px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: $text_color;
+    h1{
+        font-size: 30px;
+        text-align: left;
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1025px) and (max-width:1200px){
+    .place{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about{
+        border: 1px none;
+        width: 100%;
+        height: 500px;
+        background-color: $main;
+        display: flex;
+        .forPhoto{
+            border: 1px none;
+            width: 50%;
+            height: 100%;
+            background-image: url(Photos/GTmetrik.png);
+            background-repeat: no-repeat;
+        }
+        .categories{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+    
+            ul{
+                &:nth-child(1){
+                    width: 400px;
+                    height: 300px;
+                    background-color: white;
+                    list-style-type: none;
+                    border-radius: 10px;
+                    li{
+                        width: 100%;
+                        height: 14%;
+                        font-weight: bolder;
+                        font-size: 18px;
+                        border-bottom: 1px none gray;
+                        padding-left: 10px;
+                        box-sizing: border-box;
+                        color: gray;
+                        
+                        &:nth-child(1){
+                            font-size: 20px;
+                            color: blue;
+                            font-weight: bolder;
+                        }
+                    }
+                }
+                &:nth-child(2){
+                    border-radius: 10px;
+                    width: 500px;
+                    height: 150px;
+                    background-color: white;
+                    list-style-type: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    li{
+                        border-radius: 30px;
+                        text-align: center;
+                        border: 1px none gray;
+                        width: 150px;
+                        height: 14%;
+                        font-weight: bolder;
+                        font-size: 18px;
+                        color: $text_dark;
+                    }
+                }
+            }
+        }
+    }
+    .what{
+        border: 1px none;
+        width: 100%;
+        height: 200px;
+        background-color: $main;
+        padding-right: 800px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        color: $text_color;
+        h1{
+            font-size: 30px;
+            text-align: left;
+        }
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (min-width:769px) and (max-width:1024px){
+        .place{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .about{
+            border: 1px none;
+            width: 100%;
+            // height: 500px;
+            background-color: $main;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .forPhoto{
+                border: 1px none;
+                width: 100%;
+                height: 400px;
+                background-image: url(Photos/GTmetrik.png);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .categories{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-evenly;
+                gap: 20px;
+        
+                ul{
+                    &:nth-child(1){
+                        width: 400px;
+                        height: 300px;
+                        background-color: white;
+                        list-style-type: none;
+                        border-radius: 10px;
+                        li{
+                            width: 100%;
+                            height: 14%;
+                            font-weight: bolder;
+                            font-size: 18px;
+                            border-bottom: 1px none gray;
+                            padding-left: 10px;
+                            box-sizing: border-box;
+                            color: gray;
+                            
+                            &:nth-child(1){
+                                font-size: 20px;
+                                color: blue;
+                                font-weight: bolder;
+                            }
+                        }
+                    }
+                    &:nth-child(2){
+                        border-radius: 10px;
+                        width: 500px;
+                        height: 150px;
+                        background-color: white;
+                        list-style-type: none;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        li{
+                            border-radius: 30px;
+                            text-align: center;
+                            border: 1px none gray;
+                            width: 150px;
+                            height: 14%;
+                            font-weight: bolder;
+                            font-size: 18px;
+                            color: $text_dark;
+                        }
+                    }
+                }
+            }
+        }
+        .what{
+            border: 1px none;
+            width: 100%;
+            height: 200px;
+            background-color: $main;
+            text-align: center;
+            color: $text_color;
+            h1{
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media (min-width:481px) and (max-width:769px){
+            .place{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .about{
+                border: 1px none;
+                width: 100%;
+                // height: 500px;
+                background-color: $main;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                .forPhoto{
+                    border: 1px none;
+                    width: 100%;
+                    height: 400px;
+                    background-image: url(Photos/GTmetrik.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .categories{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    gap: 20px;
+            
+                    ul{
+                        &:nth-child(1){
+                            width: 400px;
+                            height: 300px;
+                            background-color: white;
+                            list-style-type: none;
+                            border-radius: 10px;
+                            li{
+                                width: 100%;
+                                height: 14%;
+                                font-weight: bolder;
+                                font-size: 18px;
+                                border-bottom: 1px none gray;
+                                padding-left: 10px;
+                                box-sizing: border-box;
+                                color: gray;
+                                
+                                &:nth-child(1){
+                                    font-size: 20px;
+                                    color: blue;
+                                    font-weight: bolder;
+                                }
+                            }
+                        }
+                        &:nth-child(2){
+                            border-radius: 10px;
+                            width: 500px;
+                            height: 150px;
+                            background-color: white;
+                            list-style-type: none;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            li{
+                                border-radius: 30px;
+                                text-align: center;
+                                border: 1px none gray;
+                                width: 150px;
+                                height: 14%;
+                                font-weight: bolder;
+                                font-size: 18px;
+                                color: $text_dark;
+                            }
+                        }
+                    }
+                }
+            }
+            .what{
+                border: 1px none;
+                width: 100%;
+                height: 200px;
+                background-color: $main;
+                text-align: center;
+                color: $text_color;
+                h1{
+                    font-size: 30px;
+                    text-align: center;
+                }
+            }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            @media (min-width:320px) and (max-width:480px){
+                .place{
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                .about{
+                    border: 1px none;
+                    width: 100%;
+                    // height: 500px;
+                    background-color: $main;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    .forPhoto{
+                        border: 1px none;
+                        width: 100%;
+                        height: 200px;
+                        background-image: url(Photos/GTmetrik.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 100%;
+                    }
+                    .categories{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        gap: 20px;
+                
+                        ul{
+                            &:nth-child(1){
+                                width: 100%;
+                                height: 300px;
+                                background-color: white;
+                                list-style-type: none;
+                                border-radius: 10px;
+                                li{
+                                    width: 100%;
+                                    height: 14%;
+                                    font-weight: bolder;
+                                    font-size: 18px;
+                                    border-bottom: 1px none gray;
+                                    padding-left: 10px;
+                                    box-sizing: border-box;
+                                    color: gray;
+                                    
+                                    &:nth-child(1){
+                                        font-size: 20px;
+                                        color: blue;
+                                        font-weight: bolder;
+                                    }
+                                }
+                            }
+                            &:nth-child(2){
+                                border-radius: 10px;
+                                width: 100%;
+                                height: 150px;
+                                background-color: white;
+                                list-style-type: none;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10px;
+                                li{
+                                    border-radius: 30px;
+                                    text-align: center;
+                                    border: 1px none gray;
+                                    width: 150px;
+                                    height: 14%;
+                                    font-weight: bolder;
+                                    font-size: 18px;
+                                    color: $text_dark;
+                                }
+                            }
+                        }
+                    }
+                }
+                .what{
+                    border: 1px none;
+                    width: 100%;
+                    // height: 200px;
+                    background-color: $main;
+                    text-align: center;
+                    color: $text_color;
+                    h1{
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                }
+                }
